@@ -1,0 +1,10 @@
+import java.util.Random;
+
+public class Compute {
+    private static final Random RANDOM = new Random();
+
+    public static int randomInt(int min, int max) {
+        int range = max - min + 1;
+        return RANDOM.nextInt(range) + min;
+    }
+}
