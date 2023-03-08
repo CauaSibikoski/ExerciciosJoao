@@ -1,0 +1,13 @@
+public class Face {
+    public static void main(String[] args) {
+
+        System.out.print("   XX   \n");
+        System.out.print("  X  X  \n");
+        System.out.print(" X    X \n");
+        System.out.print("X #  # X\n");
+        System.out.print("X      X\n");
+        System.out.print("X  --   X\n");
+        System.out.print(" X    X \n");
+        System.out.print("  XXXX  \n");
+    }
+}
