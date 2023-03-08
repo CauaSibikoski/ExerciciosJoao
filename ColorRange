@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Color {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a color value between 0 and 255: ");
+        int colorValue = scanner.nextInt();
+
+        if (colorValue >= 0 && colorValue <= 255) {
+            String colorRange = colorValue < 128 ? "blue-green" : "yellow-red";
+            System.out.println("Color is in the " + colorRange + " range.");
+        } else {
+            System.out.println("Invalid color value. Please enter a value between 0 and 255.");
+        }
+    }
+}
